@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ログイン</title>
+    <link rel="stylesheet" href="assets/css/login.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- ロゴ的にイラストの雰囲気を反映したタイトル -->
+    <h1 class="title">2026年夏<br>Family Trip</h1>
+
+    <div class="card">
+        <p class="subtitle">パスワードを入力してください</p>
+
+        <input type="password" id="password" placeholder="パスワード" class="input">
+
+        <button onclick="checkPassword()" class="btn">Enter</button>
+
+        <p id="error" class="error"></p>
+    </div>
+
+</div>
+
+<script src="assets/js/login.js"></script>
+</body>
+</html>
