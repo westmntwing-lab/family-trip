@@ -1,147 +1,117 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ランチを予約しました</title>
+    <title>野あそび棚を予約しました</title>
 
     <link rel="stylesheet" href="assets/css/lunch-booked.css">
 </head>
-
 <body>
 
-    <main class="container">
+<div class="container">
 
-        <a href="main.html" class="back-link">
-            ← 戻る
-        </a>
+    <a href="main.html" class="back-link">
+        ← ホームへ戻る
+    </a>
 
-        <section class="hero">
+    <!-- アイキャッチ -->
+    <div class="hero-card">
 
-            <div class="hero-icon">
-                🍚
-            </div>
+        <img src="assets/img/noasobi-hero.jpg" alt="野あそび棚">
 
-            <p class="date">
-                2026.06.01
-            </p>
-
-            <h1>
-                1日目のランチを予約しました
-            </h1>
-
-            <p class="subtitle">
-                Family Trip 2026
-            </p>
-
-        </section>
-
-        <section class="card">
-
-            <h2>
-                野あそび棚を予約しました！
-            </h2>
-
-            <p>
-                7月31日 12:00より、
-                おかげ横丁「野あそび棚」の予約が完了しました。
-            </p>
-
-            <p>
-                伊勢らしい食材と、
-                かまど炊きの土鍋ごはんを楽しめる人気店です。
-            </p>
-
-        </section>
-
-        <section class="card">
-
-            <div class="section-label">
-                お店情報
-            </div>
-
-            <h2>
-                野あそび棚
-            </h2>
-
-            <p>
-                五十鈴川沿いにある、
-                かまど炊き土鍋ごはんのお店。
-                炊きたてご飯と季節のお料理を楽しめます。
-            </p>
-
-            <a
-                href="https://okageyokocho.com/main/tenpo/noasobi/"
-                target="_blank"
-                class="button"
-            >
-                公式サイトを見る
-            </a>
-
-        </section>
-
-        <section class="card">
-
-            <div class="section-label">
-                予約内容
-            </div>
-
-            <div class="info-grid">
-
-                <div class="info-item">
-                    <span>日時</span>
-                    <strong>2026年7月31日 12:00〜</strong>
-                </div>
-
-                <div class="info-item">
-                    <span>場所</span>
-                    <strong>野あそび棚</strong>
-                </div>
-
-            </div>
-
-        </section>
-
-        <section class="card">
-
-            <div class="section-label">
-                メニュー
-            </div>
-
-            <p>
-                現在公開されているメニューはこちらから確認できます。
-            </p>
-
-            <a
-                href="https://okageyokocho.com/main/wp-content/uploads/2026/05/noasobi20260511.pdf"
-                target="_blank"
-                class="button"
-            >
-                メニューを見る（PDF）
-            </a>
-
-            <p class="note">
-                ※ メニュー内容や価格は変更になる場合があります。
-            </p>
-
-        </section>
-
-        <section class="message">
-
-            <p>
-                おかげ横丁散策の後に、
-                みんなでゆっくりランチを楽しみましょう。
-            </p>
-
-        </section>
-
-        <div class="thanks">
-            Lunch Reservation Complete.
+        <div class="hero-overlay">
+            <span>🍚 Lunch Reservation</span>
         </div>
 
-    </main>
+    </div>
+
+    <!-- タイトル -->
+    <section class="reservation-card">
+
+    <div class="reservation-label">
+        RESERVATION
+    </div>
+
+    <div class="reservation-item">
+        <span>店舗</span>
+        <strong>野あそび棚</strong>
+    </div>
+
+    <div class="reservation-item">
+        <span>予約日時</span>
+        <strong>2026/07/31（金）12:00</strong>
+    </div>
+
+    <div class="reservation-item">
+        <span>場所</span>
+        <strong>おかげ横丁から徒歩8分</strong>
+    </div>
+
+</section>
+
+<section class="map-card">
+
+    <h2>📍 アクセス</h2>
+
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.472921228196!2d136.72166267554627!3d34.465525273004175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600450947dcbdc81%3A0x25cbee83d59b9630!2z6YeO44GC44Gd44Gz5qOa!5e0!3m2!1sja!2sjp!4v1780356669131!5m2!1sja!2sjp"
+     width="100%"
+     height="300"
+     style="border:0;"
+     allowfullscreen=""
+     loading="lazy"
+     referrerpolicy="no-referrer-when-downgrade">
+     </iframe>
+
+</section>
+
+    <!-- 本文 -->
+    <section class="content-card">
+
+        <h2>🍚 今回のランチ</h2>
+
+        <p>
+            伊勢の食材を使った人気のお店です。<br>
+            土鍋ご飯や定食を楽しみながら、
+            家族みんなでゆっくりランチを楽しみましょう。
+        </p>
+
+    </section>
+
+    <!-- フォトギャラリー -->
+    <section class="gallery-section">
+
+        <h2>📸 お店の雰囲気</h2>
+
+        <div class="gallery">
+
+            <img src="assets/img/noasobi1.jpg" alt="">
+            <img src="assets/img/noasobi2.jpg" alt="">
+            <img src="assets/img/noasobi3.jpg" alt="">
+            <img src="assets/img/noasobi4.jpg" alt="">
+
+        </div>
+
+    </section>
+
+    <!-- ボタン -->
+    <section class="link-section">
+
+        <a href="https://okageyokocho.com/main/tenpo/noasobi/"
+           target="_blank"
+           class="action-button">
+            🌐 公式サイトを見る
+        </a>
+
+        <a href="https://okageyokocho.com/main/wp-content/uploads/2026/05/noasobi20260511.pdf"
+           target="_blank"
+           class="action-button secondary">
+            📖 メニューを見る
+        </a>
+
+
+</div>
 
 </body>
-
 </html>
