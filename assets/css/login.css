@@ -1,0 +1,89 @@
+/* 全体の背景：イラストと馴染む淡いベージュ */
+body {
+    margin: 0;
+    padding: 0;
+    background: #faf6f1; /* ← これがBの色 */
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Noto Sans JP", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* 中央配置 */
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* タイトル：イラストの雰囲気に合わせて柔らかく */
+.title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 24px;
+    line-height: 1.4;
+}
+
+/* カード：Notion風 × 旅の柔らかさ */
+.card {
+    background: #ffffff;
+    padding: 32px 24px;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 360px;
+    margin: 0 auto;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+/* サブタイトル */
+.subtitle {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+}
+
+/* 入力欄 */
+.input {
+    width: 100%;
+    padding: 14px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    background: #fafafa;
+    font-size: 1rem;
+    margin-bottom: 16px;
+    outline: none;
+    transition: 0.25s;
+}
+
+.input:focus {
+    border-color: #ffb36b; /* イラストのオレンジに寄せる */
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(255, 179, 107, 0.25);
+}
+
+/* ボタン */
+.btn {
+    width: 100%;
+    padding: 14px;
+    background: #ffb36b; /* イラストのオレンジ */
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+.btn:hover {
+    background: #ff9f45;
+    transform: translateY(-2px);
+}
+
+/* エラー表示 */
+.error {
+    margin-top: 12px;
+    color: #d33;
+    height: 20px;
+}
