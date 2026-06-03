@@ -1,118 +1,256 @@
 <!DOCTYPE html>
-
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>目的地リスト</title>
+
     <link rel="stylesheet" href="assets/css/destinations.css">
 </head>
+
 <body>
 
-
+<a href="main.html" class="back-link">
+    ← ホームへ戻る
+</a>
 
 <header class="page-header">
 
-    <a href="main.html" class="back-button">← 戻る</a>
-    <h1>📍 目的地リスト</h1>
-    <p>今回訪れるスポット</p>
+    <h1>目的地リスト</h1>
+
+    <p>
+        家族で巡る三重の旅スポット
+    </p>
+
 </header>
 
-<main class="destinations">
+<div class="spots-list">
 
-```
-<div class="spot-card">
-    <img src="assets/img/isejingu.png" alt="伊勢神宮">
-    <div class="spot-content">
-        <h2>伊勢神宮</h2>
-        <p class="en">Ise Jingu</p>
+    <!-- おかげ横丁 -->
+    <a href="okage-guide.html" class="spot-card">
 
-        <div class="address-box">
-            <span id="ise-address">
-                〒516-0023 三重県伊勢市宇治館町1
-            </span>
+        <img src="assets/img/okage.jpg" alt="おかげ横丁">
 
-            <button
-                class="copy-btn"
-                onclick="copyAddress('ise-address')">
-                住所をコピー
-            </button>
-        </div>
-    </div>
-</div>
+        <div class="spot-content">
 
-<div class="spot-card">
-    <img src="assets/img/okage.png" alt="おかげ横丁">
-    <div class="spot-content">
-        <h2>おかげ横丁</h2>
-        <p class="en">Okage Yokocho</p>
+            <h2>おかげ横丁</h2>
 
-        <div class="address-box">
-            <span id="okage-address">
-                〒516-8558 三重県伊勢市宇治中之切町52
-            </span>
+            <p class="en">
+                Okage Yokocho
+            </p>
+            <p class="en">
+                A4駐車場、A1/A2駐車場
+            </p>
+
+            <p class="address">
+                〒516-8558<br>
+                三重県伊勢市宇治中之切町52
+            </p>
 
             <button
                 class="copy-btn"
-                onclick="copyAddress('okage-address')">
-                住所をコピー
+                onclick="event.preventDefault();copyAddress('〒516-8558 三重県伊勢市宇治中之切町52')">
+
+                📋 住所をコピー
+
             </button>
+
         </div>
-    </div>
-</div>
 
-<div class="spot-card">
-    <img src="assets/img/vison.png" alt="VISON">
-    <div class="spot-content">
-        <h2>VISON（ヴィソン）</h2>
-        <p class="en">VISON</p>
+        <div class="arrow">→</div>
 
-        <div class="address-box">
-            <span id="vison-address">
-                〒519-2170 三重県多気郡多気町ヴィソン672-1
-            </span>
+    </a>
+
+
+
+    <!-- 安楽島海水浴場 -->
+    <a href="beach-guide.html" class="spot-card">
+
+        <img src="assets/img/arashima.jpeg" alt="安楽島海水浴場">
+
+        <div class="spot-content">
+
+            <h2>市営安楽島海水浴場</h2>
+
+            <p class="en">
+                Arashima Beach
+            </p>
+            <p class="en">
+                すぐ前に駐車場あり
+            </p>
+
+            <p class="address">
+                三重県鳥羽市安楽島町
+            </p>
 
             <button
                 class="copy-btn"
-                onclick="copyAddress('vison-address')">
-                住所をコピー
+                onclick="event.preventDefault();copyAddress('三重県鳥羽市安楽島町')">
+
+                📋 住所をコピー
+
             </button>
+
         </div>
-    </div>
-</div>
 
-<div class="spot-card">
-    <img src="assets/img/tobasui.png" alt="鳥羽水族館">
-    <div class="spot-content">
-        <h2>鳥羽水族館</h2>
-        <p class="en">Toba Aquarium</p>
+        <div class="arrow">→</div>
 
-        <div class="address-box">
-            <span id="toba-address">
-                〒517-8517 三重県鳥羽市鳥羽3丁目3-6
-            </span>
+    </a>
+
+
+
+    <!-- 戸田家 -->
+    <a href="todaya-guide.html" class="spot-card">
+
+        <img src="assets/img/todaya1.jpg" alt="戸田家">
+
+        <div class="spot-content">
+
+            <h2>戸田家</h2>
+
+            <p class="en">
+                Todaya
+            </p>
+
+            <p class="address">
+                〒517-0011<br>
+                三重県鳥羽市鳥羽1丁目24-26
+            </p>
 
             <button
                 class="copy-btn"
-                onclick="copyAddress('toba-address')">
-                住所をコピー
-            </button>
-        </div>
-    </div>
-</div>
-```
+                onclick="event.preventDefault();copyAddress('〒517-0011 三重県鳥羽市鳥羽1丁目24-26')">
 
-</main>
+                📋 住所をコピー
+
+            </button>
+
+        </div>
+
+        <div class="arrow">→</div>
+
+    </a>
+
+
+
+    <!-- 鳥羽水族館 -->
+    <a href="aquarium-guide.html" class="spot-card">
+
+        <img src="assets/img/tobasui.png" alt="鳥羽水族館">
+
+        <div class="spot-content">
+
+            <h2>鳥羽水族館</h2>
+
+            <p class="en">
+                Toba Aquarium
+            </p>
+            <p class="en">
+                ホテルから徒歩
+            </p>
+
+            <p class="address">
+                〒517-8517<br>
+                三重県鳥羽市鳥羽3丁目3-6
+            </p>
+
+            <button
+                class="copy-btn"
+                onclick="event.preventDefault();copyAddress('〒517-8517 三重県鳥羽市鳥羽3丁目3-6')">
+
+                📋 住所をコピー
+
+            </button>
+
+        </div>
+
+        <div class="arrow">→</div>
+
+    </a>
+
+
+
+    <!-- VISON -->
+    <a href="vison-guide.html" class="spot-card">
+
+        <img src="assets/img/VISON.jpg" alt="VISON">
+
+        <div class="spot-content">
+
+            <h2>VISON</h2>
+
+            <p class="en">
+                VISON
+            </p>
+            <p class="en">
+                P4(木育エリアに近い場所)
+            </p>
+
+            <p class="address">
+                〒519-2170<br>
+                三重県多気郡多気町ヴィソン672-1
+            </p>
+
+            <button
+                class="copy-btn"
+                onclick="event.preventDefault();copyAddress('〒519-2170 三重県多気郡多気町ヴィソン672-1')">
+
+                📋 住所をコピー
+
+            </button>
+
+        </div>
+
+        <div class="arrow">→</div>
+
+    </a>
+
+</div>
+
+<div class="bottom-note">
+
+    スポットをタップすると詳細ガイドを確認できます
+
+</div>
+
+
 
 <script>
-function copyAddress(id) {
-    const text =
-        document.getElementById(id).innerText;
 
-    navigator.clipboard.writeText(text);
+function copyAddress(address){
 
-    alert("住所をコピーしました！");
+    navigator.clipboard.writeText(address);
+
+    showToast("📋 住所をコピーしました");
+
 }
+
+function showToast(message){
+
+    const toast = document.createElement("div");
+
+    toast.className = "toast";
+
+    toast.textContent = message;
+
+    document.body.appendChild(toast);
+
+    setTimeout(() => {
+        toast.classList.add("show");
+    }, 50);
+
+    setTimeout(() => {
+
+        toast.classList.remove("show");
+
+        setTimeout(() => {
+            toast.remove();
+        }, 300);
+
+    }, 2000);
+
+}
+
 </script>
 
 </body>

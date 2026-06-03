@@ -1,65 +1,125 @@
 <!DOCTYPE html>
+
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>持ち物チェックリスト</title>
+    <title>持ち物リスト</title>
     <link rel="stylesheet" href="assets/css/checklist.css">
 </head>
 <body>
 
 <div class="container">
 
-    <a href="main.html" class="back-button">← 戻る</a>
+<a href="main.html" class="back-link">
+    ← ホームへ戻る
+</a>
 
-    <h1 class="title">持ち物チェックリスト</h1>
+<header class="page-header">
+    <div class="eyebrow">CHECK LIST</div>
+    <h1>持ち物リスト</h1>
+    <p>出発前に忘れ物がないか確認しましょう。</p>
+</header>
 
-    <div class="checklist">
+<section class="card">
+    <h2>🎒 基本持ち物</h2>
 
-        <label class="check-item">
-            <input type="checkbox" data-id="ticket">
-            <span>チケット（近鉄・入場券）</span>
-        </label>
+    <label><input type="checkbox"> 携帯</label>
+    <label><input type="checkbox"> モバイルバッテリー・充電コード</label>
+    <label><input type="checkbox"> 財布・現金・カード</label>
+    <label><input type="checkbox"> マイナンバーカード</label>
+    <label><input type="checkbox"> ティッシュ</label>
+    <label><input type="checkbox"> ウェットティッシュ</label>
+    <label><input type="checkbox"> ハンカチ</label>
+    <label><input type="checkbox"> おやつ</label>
+    <label><input type="checkbox"> 飲み物</label>
+    <label><input type="checkbox"> ゴミ袋</label>
+    <label><input type="checkbox"> 常備薬・酔い止め</label>
+    <label><input type="checkbox"> 絆創膏</label>
+    <label><input type="checkbox"> マキロン</label>
+    <label><input type="checkbox"> 折り畳み傘</label>
+</section>
 
-        <label class="check-item">
-            <input type="checkbox" data-id="wallet">
-            <span>財布・現金・カード</span>
-        </label>
+<section class="card">
+    <h2>☀️ 暑さ対策</h2>
 
-        <label class="check-item">
-            <input type="checkbox" data-id="phone">
-            <span>スマホ・充電器</span>
-        </label>
+    <label><input type="checkbox"> 日焼け止め</label>
+    <label><input type="checkbox"> 日傘</label>
+    <label><input type="checkbox"> 帽子</label>
+    <label><input type="checkbox"> 上着</label>
+    <label><input type="checkbox"> アイスリング</label>
+    <label><input type="checkbox"> モバイル扇風機</label>
+    <label><input type="checkbox"> 汗拭きシート</label>
+    <label><input type="checkbox"> 虫除け</label>
+</section>
 
-        <label class="check-item">
-            <input type="checkbox" data-id="clothes">
-            <span>着替え</span>
-        </label>
+<section class="card">
+    <h2>🏖 海あそび</h2>
 
-        <label class="check-item">
-            <input type="checkbox" data-id="medicine">
-            <span>常備薬</span>
-        </label>
+    <label><input type="checkbox"> 水着</label>
+    <label><input type="checkbox"> うきわ</label>
+    <label><input type="checkbox"> ゴーグル</label>
+    <label><input type="checkbox"> タオル</label>
+    <label><input type="checkbox"> マリンシューズ</label>
+    <label><input type="checkbox"> 濡れ物を入れる袋</label>
+    <label><input type="checkbox"> テント</label>
+    <label><input type="checkbox"> ビニールシート</label>
+    <label><input type="checkbox"> クーラーボックス</label>
+    <label><input type="checkbox"> スマホ用防水ケース</label>
+</section>
 
-        <label class="check-item">
-            <input type="checkbox" data-id="towel">
-            <span>タオル・ハンカチ</span>
-        </label>
+<section class="card">
+    <h2>👕 着替え</h2>
 
-        <label class="check-item">
-            <input type="checkbox" data-id="toiletries">
-            <span>洗面用具</span>
-        </label>
+    <label><input type="checkbox"> 2日目の服</label>
+    <label><input type="checkbox"> 海あがり用の着替え</label>
+</section>
 
-        <label class="check-item">
-            <input type="checkbox" data-id="camera">
-            <span>カメラ</span>
-        </label>
+<section class="card">
+    <h2>🧴 お風呂・身支度</h2>
 
-    </div>
+    <label><input type="checkbox"> 歯ブラシセット</label>
+    <label><input type="checkbox"> メイク落とし</label>
+    <label><input type="checkbox"> 洗顔</label>
+    <label><input type="checkbox"> シャンプー</label>
+    <label><input type="checkbox"> トリートメント</label>
+    <label><input type="checkbox"> ボディーソープ</label>
+    <label><input type="checkbox"> ヘアミルク</label>
+    <label><input type="checkbox"> 化粧水・乳液</label>
+    <label><input type="checkbox"> ヘアゴム</label>
+    <label><input type="checkbox"> コンタクト</label>
+</section>
+
+<section class="card">
+    <h2>💄 身だしなみ</h2>
+
+    <label><input type="checkbox"> 化粧品</label>
+    <label><input type="checkbox"> ヘアアイロン</label>
+    <label><input type="checkbox"> 爪切り・爪やすり</label>
+</section>
+
+<section class="card">
+    <h2>👶 ベビー用品</h2>
+
+    <label><input type="checkbox"> オムツ</label>
+    <label><input type="checkbox"> おしり拭き</label>
+    <label><input type="checkbox"> 着替え（多め）</label>
+    <label><input type="checkbox"> ミルク関連</label>
+    <label><input type="checkbox"> お食事エプロン</label>
+    <label><input type="checkbox"> カトラリー</label>
+    <label><input type="checkbox"> うどんハサミ</label>
+    <label><input type="checkbox"> おやつ</label>
+    <label><input type="checkbox"> マグ</label>
+    <label><input type="checkbox"> ガーゼ</label>
+    <label><input type="checkbox"> スタイ</label>
+    <label><input type="checkbox"> オムツ捨てる袋</label>
+    <label><input type="checkbox"> 抱っこ紐</label>
+    <label><input type="checkbox"> ベビーカー</label>
+    <label><input type="checkbox"> おもちゃ</label>
+</section>
+
 
 </div>
 
-<script src="assets/js/items.js"></script>
 </body>
 </html>
