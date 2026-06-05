@@ -5,10 +5,10 @@ body{
     color:#333;
 
     font-family:
-    "Hiragino Sans",
-    "Yu Gothic",
+    "Zen Maru Gothic",
     sans-serif;
 }
+
 
 .container{
 
@@ -111,18 +111,17 @@ body{
     margin-bottom:18px;
 }
 
-.reservation-item{
-
-    display:flex;
-
-    justify-content:space-between;
-
-    padding:12px 0;
-
-    border-bottom:
-    1px solid #f2efea;
+.reservation-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
 }
 
+.reservation-item strong {
+    white-space: nowrap;
+    flex-shrink: 0;
+}
 .reservation-item:last-child{
 
     border:none;
@@ -242,4 +241,41 @@ body{
     font-style:italic;
 
     opacity:.5;
+}
+
+h1,
+h2,
+.hero-title,
+.page-title{
+
+    font-family:
+    "Kiwi Maru",
+    serif;
+
+    font-weight:500;
+}
+
+@media (max-width: 480px){
+
+    .reservation-item{
+
+        display:block;
+        margin-bottom:18px;
+    }
+
+    .reservation-item span{
+
+        display:block;
+        margin-bottom:6px;
+
+        font-size:14px;
+        color:#888;
+    }
+
+    .reservation-item strong{
+
+        display:block;
+        text-align:left;
+    }
+
 }

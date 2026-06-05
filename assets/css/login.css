@@ -3,12 +3,15 @@ body {
     margin: 0;
     padding: 0;
     background: #faf6f1; /* ← これがBの色 */
-    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Noto Sans JP", sans-serif;
+    font-family:
+    "Zen Maru Gothic",
+    sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
+
 
 /* 中央配置 */
 .container {
@@ -144,4 +147,16 @@ body {
 .btn:hover{
 
     opacity: .9;
+}
+
+h1,
+h2,
+.hero-title,
+.page-title{
+
+    font-family:
+    "Kiwi Maru",
+    serif;
+
+    font-weight:500;
 }

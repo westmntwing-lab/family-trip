@@ -7,11 +7,11 @@ body{
     padding:24px;
     background:#f7f6f2;
     font-family:
-        "Hiragino Sans",
-        "Yu Gothic",
-        sans-serif;
+    "Zen Maru Gothic",
+    sans-serif;
     color:#333;
 }
+
 
 /* =========================
    Back Link
@@ -333,4 +333,90 @@ body{
 
         font-size:28px;
     }
+
+}
+
+/* =========================
+   Button Area
+========================= */
+
+.button-area{
+
+    display:flex;
+
+    gap:10px;
+
+    flex-wrap:wrap;
+
+    margin-top:14px;
+}
+
+/* =========================
+   Parking Button
+========================= */
+
+.parking-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-decoration:none;
+
+    background:#f4eee5;
+
+    color:#7b6751;
+
+    padding:10px 16px;
+
+    border-radius:999px;
+
+    font-size:.85rem;
+
+    transition:.2s;
+}
+
+.parking-btn:hover{
+
+    background:#eadfcf;
+}
+
+.parking-btn:active{
+
+    transform:scale(.97);
+}
+
+h1,
+h2,
+.hero-title,
+.page-title{
+
+    font-family:
+    "Kiwi Maru",
+    serif;
+
+    font-weight:500;
+}
+/* =========================
+   Mobile
+========================= */
+
+@media(max-width:768px){
+
+    .button-area{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+    }
+
+    .parking-btn{
+
+        font-size:.75rem;
+
+        padding:8px 14px;
+    }
+
 }
