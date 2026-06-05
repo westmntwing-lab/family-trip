@@ -1,7 +1,9 @@
 body{
 margin:0;
 background:#f7f5f1;
-font-family:"Hiragino Sans","Yu Gothic",sans-serif;
+    font-family:
+    "Zen Maru Gothic",
+    sans-serif;
 color:#333;
 }
 
@@ -67,4 +69,16 @@ border-bottom:none;
 .card input{
 margin-right:10px;
 transform:scale(1.2);
+}
+
+h1,
+h2,
+.hero-title,
+.page-title{
+
+    font-family:
+    "Kiwi Maru",
+    serif;
+
+    font-weight:500;
 }
