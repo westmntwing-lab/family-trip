@@ -1,0 +1,84 @@
+body{
+margin:0;
+background:#f7f5f1;
+    font-family:
+    "Zen Maru Gothic",
+    sans-serif;
+color:#333;
+}
+
+.container{
+max-width:430px;
+margin:auto;
+padding:24px;
+}
+
+.back-link{
+text-decoration:none;
+color:#777;
+font-size:14px;
+}
+
+.page-header{
+text-align:center;
+margin:32px 0;
+}
+
+.eyebrow{
+font-size:12px;
+letter-spacing:2px;
+color:#b8a48a;
+margin-bottom:8px;
+}
+
+.page-header h1{
+margin:0;
+font-size:32px;
+}
+
+.page-header p{
+color:#777;
+margin-top:12px;
+}
+
+.card{
+background:#fff;
+border-radius:24px;
+padding:24px;
+margin-bottom:20px;
+box-shadow:0 4px 12px rgba(0,0,0,.05);
+}
+
+.card h2{
+margin-top:0;
+margin-bottom:18px;
+font-size:20px;
+}
+
+.card label{
+display:block;
+padding:10px 0;
+border-bottom:1px solid #f2f2f2;
+cursor:pointer;
+}
+
+.card label:last-child{
+border-bottom:none;
+}
+
+.card input{
+margin-right:10px;
+transform:scale(1.2);
+}
+
+h1,
+h2,
+.hero-title,
+.page-title{
+
+    font-family:
+    "Kiwi Maru",
+    serif;
+
+    font-weight:500;
+}

@@ -1,41 +1,110 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>戸田家ガイド</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="assets/css/todaya-guide.css">
+<title>戸田家ガイド</title>
+
+<link rel="stylesheet" href="assets/css/todaya-guide.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400;500&family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
-<body>
 
-<a href="destinations.html" class="back-link">
-    ← 目的地リストへ戻る
-</a>
+<body>
 
 <div class="container">
 
-    <div class="hero">
+    <a href="destinations.html" class="back-link">
+        ← 行先一覧へ戻る
+    </a>
+
+    <header class="hero">
 
         <img src="assets/img/todaya-hero.jpg" alt="戸田家">
 
-        <div class="hero-overlay">
-            <h1>戸田家</h1>
-            <p>Todaya Hotel Guide</p>
+        <div class="hero-text">
+            <h1> 戸田家</h1>
+            <p>今回のお宿ガイド</p>
         </div>
 
-    </div>
+    </header>
+
+    <section class="card">
+
+        <h2>✨ 今回のお宿</h2>
+
+        <p>
+            鳥羽駅から徒歩約3分。
+            鳥羽湾を望む老舗旅館です。
+        </p>
+
+        <p>
+            温泉は13湯と足湯2湯。プールは水中で音楽が聞こえたり、館内施設も充実してます！
+        </p>
+
+    </section>
+
+    <section class="info-grid">
+
+        <div class="info-card">
+            <h3>♨️ 貸切風呂</h3>
+            <p>
+                予約不要<br>
+                空いていれば自由に利用OK
+            </p>
+        </div>
+
+        <div class="info-card">
+            <h3>🏊 プール</h3>
+            <p>
+                夏季営業<br>
+                9:00〜17:00
+            </p>
+        </div>
+
+        <div class="info-card">
+            <h3>🕒 チェックイン</h3>
+            <p>
+                15:00〜
+            </p>
+        </div>
+
+        <div class="info-card">
+            <h3>🧳 チェックアウト</h3>
+            <p>
+                〜10:00
+            </p>
+        </div>
+
+    </section>
 
     <section class="card">
 
         <h2>📸 写真ギャラリー</h2>
 
-        <div class="photo-grid">
+        <div class="gallery">
 
-            <img src="assets/img/todaya01.jpg" alt="">
-            <img src="assets/img/todaya02.jpg" alt="">
-            <img src="assets/img/todaya03.jpg" alt="">
-            <img src="assets/img/todaya04.jpg" alt="">
+            <div class="gallery-item">
+                <img src="assets/img/todaya1.jpg" alt="">
+                <span>外観</span>
+            </div>
+
+            <div class="gallery-item">
+                <img src="assets/img/todaya2.jpg" alt="">
+                <span>温泉</span>
+            </div>
+
+            <div class="gallery-item">
+                <img src="assets/img/todaya3.jpg" alt="">
+                <span>ロビー</span>
+            </div>
+
+            <div class="gallery-item">
+                <img src="assets/img/todaya4.jpg" alt="">
+                <span>客室</span>
+            </div>
 
         </div>
 
@@ -43,99 +112,48 @@
 
     <section class="card">
 
-        <h2>📍 ホテル情報</h2>
+        <h2>📍 アクセス</h2>
 
-        <div class="info-box">
+        <p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.5685122005953!2d136.8414061!3d34.4884688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6004f88d97b9efdd%3A0xe8a6be8dca52cbb2!2z5oi455Sw5a62!5e0!3m2!1sja!2sjp!4v1780673187904!5m2!1sja!2sjp" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </p>
 
-            <p><strong>ホテル名</strong><br>戸田家</p>
-
-            <p><strong>チェックイン</strong><br>16:00</p>
-
-            <p><strong>チェックアウト</strong><br>11:00</p>
-
-            <p><strong>住所</strong><br>
-            三重県鳥羽市鳥羽1丁目24-26</p>
-
-        </div>
 
     </section>
 
     <section class="card">
 
-        <h2>🗺️ 地図</h2>
+        <h2>🌐 公式サイト</h2>
 
-        <div class="map-wrap">
-
-            <!-- Googleマップ埋め込みに差し替え -->
-
-            <iframe
-                src="https://www.google.com/maps?q=戸田家+鳥羽&output=embed"
-                loading="lazy"
-                allowfullscreen>
-            </iframe>
-
-        </div>
-
-    </section>
-
-    <section class="card">
-
-        <h2>✨ 楽しみポイント</h2>
-
-        <div class="point-grid">
-
-            <div class="point">
-                🍽️
-                <h3>豪華バイキング</h3>
-                <p>夕食の大本命！</p>
-            </div>
-
-            <div class="point">
-                ♨️
-                <h3>温泉村</h3>
-                <p>館内湯めぐり</p>
-            </div>
-
-            <div class="point">
-                🌊
-                <h3>鳥羽湾ビュー</h3>
-                <p>海の景色が最高</p>
-            </div>
-
-            <div class="point">
-                🎮
-                <h3>館内散策</h3>
-                <p>家族で楽しめる</p>
-            </div>
-
-        </div>
-
-    </section>
-
-<!-- ボタン -->
-    <section class="link-section">
+        <p>
+            客室・温泉・お食事の詳細はこちら
+        </p>
 
         <a
             href="https://www.todaya.co.jp/"
             target="_blank"
-            class="action-button">
+            class="official-btn">
 
-            🌐 公式サイトを見る
-
-        </a>
-
-        <a
-            href="https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTCOD1=87250&hidSELECTCOD2=001&hidSELECTPLAN=A7AXG&pac=P02&hidSELECTARRYMD=&hidSELECTHAKSU=1&rooms=1&selectptyp=&selectppsn=&hidk=&reffrom=&LB01=server16"
-            target="_blank"
-            class="action-button secondary">
-
-            🛏 宿泊プランを見る
+            戸田家公式サイトを見る
 
         </a>
 
     </section>
 
 </div>
+
+<script>
+
+function copyAddress(){
+
+    navigator.clipboard.writeText(
+        "〒517-0011 三重県鳥羽市鳥羽1丁目24-26"
+    );
+
+    alert("住所をコピーしました！");
+}
+
+</script>
 
 </body>
 </html>

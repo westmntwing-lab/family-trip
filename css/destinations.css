@@ -1,0 +1,422 @@
+/* =========================
+   Base
+========================= */
+
+body{
+    margin:0;
+    padding:24px;
+    background:#f7f6f2;
+    font-family:
+    "Zen Maru Gothic",
+    sans-serif;
+    color:#333;
+}
+
+
+/* =========================
+   Back Link
+========================= */
+
+.back-link{
+    display:inline-block;
+    margin-bottom:24px;
+    text-decoration:none;
+    color:#8a7d6d;
+    font-weight:600;
+    transition:.2s;
+}
+
+.back-link:hover{
+    opacity:.7;
+}
+
+/* =========================
+   Header
+========================= */
+
+.page-header{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.page-header h1{
+    font-size:2.5rem;
+    margin:0 0 12px;
+    color:#2d2d2d;
+}
+
+.page-header p{
+    color:#9a9a9a;
+    margin:0;
+}
+
+/* =========================
+   List
+========================= */
+
+.spots-list{
+    max-width:1000px;
+    margin:auto;
+}
+
+/* =========================
+   Card
+========================= */
+
+.spot-card{
+
+    display:flex;
+    align-items:center;
+    gap:24px;
+
+    background:#fff;
+
+    border-radius:28px;
+
+    padding:18px;
+
+    margin-bottom:24px;
+
+    text-decoration:none;
+    color:inherit;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,.05);
+
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
+}
+
+.spot-card:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:
+        0 14px 40px rgba(0,0,0,.08);
+}
+
+.spot-card:visited{
+    color:inherit;
+}
+
+/* =========================
+   Image
+========================= */
+
+.spot-card img{
+
+    width:180px;
+    height:180px;
+
+    object-fit:cover;
+
+    border-radius:20px;
+
+    flex-shrink:0;
+}
+
+/* =========================
+   Content
+========================= */
+
+.spot-content{
+    flex:1;
+}
+
+.spot-content h2{
+
+    margin:0;
+
+    font-size:2rem;
+
+    font-weight:700;
+
+    color:#222;
+}
+
+.en{
+
+    margin-top:8px;
+
+    margin-bottom:18px;
+
+    color:#9c9c9c;
+
+    letter-spacing:.05em;
+
+    font-size:.95rem;
+}
+
+.address{
+
+    color:#666;
+
+    line-height:1.8;
+
+    margin-bottom:0;
+}
+
+/* =========================
+   Copy Button
+========================= */
+
+.copy-btn{
+
+    margin-top:14px;
+
+    border:none;
+
+    background:#f4eee5;
+
+    color:#7b6751;
+
+    padding:10px 16px;
+
+    border-radius:999px;
+
+    font-size:.85rem;
+
+    cursor:pointer;
+
+    transition:.2s;
+}
+
+.copy-btn:hover{
+
+    background:#eadfcf;
+}
+
+.copy-btn:active{
+
+    transform:scale(.97);
+}
+
+/* =========================
+   Arrow
+========================= */
+
+.arrow{
+
+    font-size:38px;
+
+    color:#d6a15f;
+
+    flex-shrink:0;
+
+    transition:.2s;
+}
+
+.spot-card:hover .arrow{
+
+    transform:translateX(4px);
+}
+
+/* =========================
+   Bottom Note
+========================= */
+
+.bottom-note{
+
+    text-align:center;
+
+    margin-top:40px;
+
+    color:#8d8d8d;
+
+    font-size:.95rem;
+}
+
+/* =========================
+   Toast
+========================= */
+
+.toast{
+
+    position:fixed;
+
+    bottom:24px;
+
+    left:50%;
+
+    transform:
+        translateX(-50%)
+        translateY(20px);
+
+    background:#2f2f2f;
+
+    color:white;
+
+    padding:14px 22px;
+
+    border-radius:999px;
+
+    font-size:.9rem;
+
+    opacity:0;
+
+    transition:.3s;
+
+    z-index:9999;
+}
+
+.toast.show{
+
+    opacity:1;
+
+    transform:
+        translateX(-50%)
+        translateY(0);
+}
+
+/* =========================
+   Mobile
+========================= */
+
+@media(max-width:768px){
+
+    body{
+        padding:16px;
+    }
+
+    .page-header{
+        margin-bottom:28px;
+    }
+
+    .page-header h1{
+        font-size:2rem;
+    }
+
+    .spot-card{
+
+        gap:14px;
+
+        padding:14px;
+    }
+
+    .spot-card img{
+
+        width:120px;
+
+        height:120px;
+
+        border-radius:16px;
+    }
+
+    .spot-content h2{
+
+        font-size:1.3rem;
+    }
+
+    .en{
+
+        font-size:.85rem;
+
+        margin-bottom:12px;
+    }
+
+    .address{
+
+        font-size:.8rem;
+
+        line-height:1.6;
+    }
+
+    .copy-btn{
+
+        font-size:.75rem;
+
+        padding:8px 14px;
+    }
+
+    .arrow{
+
+        font-size:28px;
+    }
+
+}
+
+/* =========================
+   Button Area
+========================= */
+
+.button-area{
+
+    display:flex;
+
+    gap:10px;
+
+    flex-wrap:wrap;
+
+    margin-top:14px;
+}
+
+/* =========================
+   Parking Button
+========================= */
+
+.parking-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-decoration:none;
+
+    background:#f4eee5;
+
+    color:#7b6751;
+
+    padding:10px 16px;
+
+    border-radius:999px;
+
+    font-size:.85rem;
+
+    transition:.2s;
+}
+
+.parking-btn:hover{
+
+    background:#eadfcf;
+}
+
+.parking-btn:active{
+
+    transform:scale(.97);
+}
+
+h1,
+h2,
+.hero-title,
+.page-title{
+
+    font-family:
+    "Kiwi Maru",
+    serif;
+
+    font-weight:500;
+}
+/* =========================
+   Mobile
+========================= */
+
+@media(max-width:768px){
+
+    .button-area{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+    }
+
+    .parking-btn{
+
+        font-size:.75rem;
+
+        padding:8px 14px;
+    }
+
+}

@@ -1,0 +1,157 @@
+body{
+
+    margin:0;
+
+    background:#f7f6f2;
+
+    color:#2f2f2f;
+
+    font-family:
+    "Zen Maru Gothic",
+    sans-serif;
+}
+
+
+
+.back-link{
+
+    display:inline-block;
+
+    margin:24px;
+
+    text-decoration:none;
+
+    color:#8b7355;
+
+    font-weight:600;
+}
+
+.article{
+
+    max-width:900px;
+
+    margin:auto;
+
+    padding:0 20px 80px;
+}
+
+.article-header{
+
+    text-align:center;
+
+    margin-bottom:40px;
+}
+
+.article-tag{
+
+    display:inline-block;
+
+    padding:8px 16px;
+
+    border-radius:999px;
+
+    background:#ece6dd;
+
+    color:#8b7355;
+
+    font-size:12px;
+
+    letter-spacing:1px;
+}
+
+.article-header h1{
+
+    margin:20px 0 10px;
+
+    font-size:42px;
+
+    font-weight:700;
+}
+
+.article-date{
+
+    color:#999;
+}
+
+.hero-image{
+
+    border-radius:28px;
+
+    overflow:hidden;
+
+    margin-bottom:30px;
+
+    box-shadow:
+    0 15px 40px rgba(0,0,0,.08);
+}
+
+.hero-image img{
+
+    width:100%;
+
+    display:block;
+
+    object-fit:cover;
+}
+
+.content-card{
+
+    background:white;
+
+    border-radius:24px;
+
+    padding:32px;
+
+    margin-bottom:24px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.05);
+}
+
+.content-card h2{
+
+    margin-top:0;
+}
+
+.content-card p{
+
+    line-height:2;
+
+    color:#444;
+}
+
+.footer-note{
+
+    text-align:center;
+
+    color:#999;
+
+    margin-top:40px;
+
+    font-size:14px;
+}
+
+h1,
+h2,
+.hero-title,
+.page-title{
+
+    font-family:
+    "Kiwi Maru",
+    serif;
+
+    font-weight:500;
+}
+
+@media(max-width:768px){
+
+    .article-header h1{
+
+        font-size:30px;
+    }
+
+    .content-card{
+
+        padding:24px;
+    }
+}

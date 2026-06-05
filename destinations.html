@@ -6,6 +6,12 @@
     <title>目的地リスト</title>
 
     <link rel="stylesheet" href="assets/css/destinations.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400;500&family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -24,44 +30,53 @@
 
 </header>
 
-<div class="spots-list">
+<!-- おはらい町・おかげ横丁 -->
+<a href="okage-guide.html" class="spot-card">
 
-    <!-- おかげ横丁 -->
-    <a href="okage-guide.html" class="spot-card">
+    <img src="assets/img/okage.jpg" alt="おはらい町・おかげ横丁">
 
-        <img src="assets/img/okage.jpg" alt="おかげ横丁">
+    <div class="spot-content">
 
-        <div class="spot-content">
+        <h2>おはらい町・おかげ横丁</h2>
 
-            <h2>おかげ横丁</h2>
+        <p class="en">
+            Oharai-machi & Okage Yokocho
+        </p>
 
-            <p class="en">
-                Okage Yokocho
-            </p>
-            <p class="en">
-                A4駐車場、A1/A2駐車場
-            </p>
+        <p class="en">
+            🅿 利用予定駐車場：A4駐車場
+        </p>
 
-            <p class="address">
-                〒516-8558<br>
-                三重県伊勢市宇治中之切町52
-            </p>
+        <p class="address">
+            〒516-0026<br>
+            三重県伊勢市宇治浦田1丁目11
+        </p>
+
+        <div class="button-area">
 
             <button
                 class="copy-btn"
-                onclick="event.preventDefault();copyAddress('〒516-8558 三重県伊勢市宇治中之切町52')">
+                onclick="event.preventDefault();copyAddress('〒516-0026 三重県伊勢市宇治浦田1丁目11')">
 
                 📋 住所をコピー
 
             </button>
 
+            <button
+            class="parking-btn"
+            onclick="window.open('https://www.rakurakuise.jp/jam_map_02.html','_blank')">
+
+            🅿 駐車場情報
+
+            </button>
+
         </div>
 
-        <div class="arrow">→</div>
+    </div>
 
-    </a>
+    <div class="arrow">→</div>
 
-
+</a>
 
     <!-- 安楽島海水浴場 -->
     <a href="anrakujima.html" class="spot-card">
