@@ -1,12 +1,8 @@
-
-
 body {
     margin: 0;
     padding: 0;
     background: #faf6f1;
-    font-family:
-    "Zen Maru Gothic",
-    sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Noto Sans JP", sans-serif;
 }
 
 /* Hero */
@@ -275,14 +271,3 @@ body {
     font-weight: 500;
 }
 
-h1,
-h2,
-.hero-title,
-.page-title{
-
-    font-family:
-    "Kiwi Maru",
-    serif;
-
-    font-weight:500;
-}

@@ -3,9 +3,9 @@ body{
     background:#f7f5f1;
     color:#2f2f2f;
     font-family:
-    "Zen Maru Gothic",
+    "Hiragino Sans",
+    "Yu Gothic",
     sans-serif;
-
 }
 
 .back-link{
@@ -202,18 +202,6 @@ main{
 
 .memo-list{
     line-height:2;
-}
-
-h1,
-h2,
-.hero-title,
-.page-title{
-
-    font-family:
-    "Kiwi Maru",
-    serif;
-
-    font-weight:500;
 }
 
 @media(max-width:768px){

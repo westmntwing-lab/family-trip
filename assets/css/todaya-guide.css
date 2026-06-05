@@ -4,9 +4,9 @@ body{
     background:#f7f5f1;
     color:#333;
     font-family:
-    "Zen Maru Gothic",
+    "Hiragino Sans",
+    "Yu Gothic",
     sans-serif;
-
 }
 
 .container{
@@ -148,18 +148,6 @@ body{
     text-decoration:none;
 
     cursor:pointer;
-}
-
-h1,
-h2,
-.hero-title,
-.page-title{
-
-    font-family:
-    "Kiwi Maru",
-    serif;
-
-    font-weight:500;
 }
 
 @media(max-width:768px){

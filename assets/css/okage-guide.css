@@ -5,11 +5,11 @@ body{
     background:#f7f6f2;
 
     font-family:
-    "Zen Maru Gothic",
+    "Hiragino Sans",
     sans-serif;
+
     color:#333;
 }
-
 
 .back-link{
 
@@ -252,18 +252,6 @@ body{
     padding:40px;
 
     color:#888;
-}
-
-h1,
-h2,
-.hero-title,
-.page-title{
-
-    font-family:
-    "Kiwi Maru",
-    serif;
-
-    font-weight:500;
 }
 
 @media(max-width:768px){
