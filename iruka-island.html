@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>イルカ島ガイド</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400;500&family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/iruka-island.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<a href="destinations.html" class="back-link">
+    ← 目的地一覧へ戻る
+</a>
+
+<header class="hero">
+
+    <img src="assets/img/iruka_1.jpg"
+         alt="イルカ島">
+
+    <div class="hero-text">
+        <h1>イルカ島ガイド</h1>
+
+        <p>鳥羽湾クルーズと動物たちとのふれあいを楽しもう！</p>
+    </div>
+
+</header>
+
+<section class="card">
+
+    <h2>イルカ島ってどんなところ？</h2>
+
+    <p>
+        鳥羽湾クルーズを楽しみながら向かう人気スポット！
+        島内ではイルカ・アシカ・カワウソたちとふれあえるプログラムが開催されています。
+    </p>
+
+</section>
+
+<section class="card">
+
+    <h2>料金案内</h2>
+
+    <table class="price-table">
+        <tr>
+            <th>区分</th>
+            <th>料金</th>
+        </tr>
+        <tr>
+            <td>大人</td>
+            <td>2,400円</td>
+        </tr>
+        <tr>
+            <td>子ども（4歳～）</td>
+            <td>1,300円</td>
+        </tr>
+    </table>
+
+    <p class="note">
+        ※ 鳥羽湾めぐり＋イルカ島入園料込み
+    </p>
+
+</section>
+
+<section class="card">
+
+    <h2>鳥羽湾めぐり航路図</h2>
+
+    <img src="assets/img/sec03_map.svg"
+         alt="航路図"
+         class="full-image">
+
+</section>
+
+<section class="card">
+
+    <h2>時刻表</h2>
+
+    <div class="tab-buttons">
+
+        <button
+            class="tab-btn active"
+            onclick="showTable('b', this)">
+
+            7/31（金）Bダイヤ
+
+        </button>
+
+        <button
+            class="tab-btn"
+            onclick="showTable('a', this)">
+
+            8/1（土）Aダイヤ
+
+        </button>
+
+    </div>
+
+    <!-- Bダイヤ -->
+
+    <div id="table-b" class="table-content active">
+
+        <table class="schedule-table">
+
+            <thead>
+                <tr>
+                    <th>時</th>
+                    <th>真珠島・<br>水族館前<br>のりば発</th>
+                    <th>鳥羽マリン<br>ターミナル発</th>
+                    <th>イルカ島発</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>9</td>
+                    <td>15・45</td>
+                    <td>00・30</td>
+                    <td>15・45</td>
+                </tr>
+
+                <tr>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>00・30</td>
+                    <td>15</td>
+                </tr>
+
+                <tr>
+                    <td>11</td>
+                    <td>15</td>
+                    <td>30</td>
+                    <td>45</td>
+                </tr>
+
+                <tr>
+                    <td>12</td>
+                    <td>15</td>
+                    <td>30</td>
+                    <td>45</td>
+                </tr>
+
+                <tr>
+                    <td>13</td>
+                    <td>15・45</td>
+                    <td>30</td>
+                    <td>45</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>15・45</td>
+                    <td>00・30</td>
+                    <td>15・45</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>15・45</td>
+                    <td>00・30</td>
+                    <td>15・45</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td></td>
+                    <td>00</td>
+                    <td>15</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <!-- Aダイヤ -->
+
+    <div id="table-a" class="table-content">
+
+        <table class="schedule-table">
+
+            <thead>
+                <tr>
+                    <th>時</th>
+                    <th>真珠島・<br>水族館前<br>のりば発</th>
+                    <th>鳥羽マリン<br>ターミナル発</th>
+                    <th>イルカ島発</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>9</td>
+                    <td>15・45</td>
+                    <td>00・30</td>
+                    <td>15・45</td>
+                </tr>
+
+                <tr>
+                    <td>10</td>
+                    <td>15・45</td>
+                    <td>00・30</td>
+                    <td>15・45</td>
+                </tr>
+
+                <tr>
+                    <td>11</td>
+                    <td>15・45</td>
+                    <td>00・30</td>
+                    <td>15・45</td>
+                </tr>
+
+                <tr>
+                    <td>12</td>
+                    <td>15・45</td>
+                    <td>00・30</td>
+                    <td>15・45</td>
+                </tr>
+
+                <tr>
+                    <td>13</td>
+                    <td>15・45</td>
+                    <td>00・30</td>
+                    <td>15・45</td>
+                </tr>
+
+                <tr>
+                    <td>14</td>
+                    <td>15・45</td>
+                    <td>00・30</td>
+                    <td>15・45</td>
+                </tr>
+
+                <tr>
+                    <td>15</td>
+                    <td>15・45</td>
+                    <td>00・30</td>
+                    <td>15・45</td>
+                </tr>
+
+                <tr>
+                    <td>16</td>
+                    <td></td>
+                    <td>00</td>
+                    <td>15</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
+
+<section class="card">
+
+    <h2>イルカ島マップ</h2>
+
+    <img src="assets/img/irukashimamap.jpeg"
+         alt="イルカ島マップ"
+         class="full-image">
+
+</section>
+
+<section class="card">
+
+    <h2>生き物たちのプログラム</h2>
+
+    <div class="program-grid">
+
+        <div class="program-card">
+            <h3>イルカ飼育体験</h3>
+            <p>約10分</p>
+            <p>年齢制限なし</p>
+            <p>600円</p>
+            <p>各回12杯</p>
+        </div>
+
+        <div class="program-card">
+            <h3>イルカの遊び時間</h3>
+            <p>約15分</p>
+        </div>
+
+        <div class="program-card">
+            <h3>体表チェック</h3>
+            <p>約20分</p>
+            <p>小学生以上</p>
+            <p>800円</p>
+            <p>定員15名</p>
+        </div>
+
+        <div class="program-card">
+            <h3>アシカの遊び時間</h3>
+            <p>約15分</p>
+        </div>
+
+        <div class="program-card">
+            <h3>イルカにごあいさつ</h3>
+            <p>年齢制限なし</p>
+            <p>無料</p>
+        </div>
+
+        <div class="program-card">
+            <h3>カワウソの遊び時間</h3>
+            <p>年齢制限なし</p>
+            <p>無料</p>
+            <p>各回50名</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="card">
+
+    <h2>アクセス</h2>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9299.658108273165!2d136.8232008248844!3d34.50476899979667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6004f86e50551129%3A0xbba682a63a9ee812!2z44Kk44Or44Kr5bO2!5e0!3m2!1sja!2sjp!4v1781318175211!5m2!1sja!2sjp" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+<section class="card center">
+
+    <a
+        href="https://shima-marineleisure.com/toba"
+        target="_blank"
+        class="btn">
+
+        公式サイトを見る
+
+    </a>
+
+</section>
+
+</div>
+<script src="assets/js/iruka.js"></script>
+</body>
+</html>
