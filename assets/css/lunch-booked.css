@@ -284,6 +284,60 @@ body {
     font-size:14px;
 }
 
+.coupon-card{
+
+    background:#fff8ec;
+
+    border:2px dashed #d4a15f;
+
+    border-radius:24px;
+
+    padding:24px;
+
+    margin:30px 0;
+
+    text-align:center;
+
+}
+
+
+.coupon-card h3{
+
+    color:#8f6f4f;
+
+    margin-top:0;
+
+}
+
+
+
+.coupon-btn{
+
+    display:inline-block;
+
+    margin-top:15px;
+
+    background:#8f6f4f;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:12px 28px;
+
+    border-radius:999px;
+
+    font-weight:bold;
+
+}
+
+
+.coupon-btn:hover{
+
+    opacity:.8;
+
+}
+
 .reservation-item strong{
 
     color:#333;
@@ -337,4 +391,5 @@ h2,
 
     font-weight:600;
 }
+
 }
